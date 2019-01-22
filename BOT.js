@@ -6,7 +6,7 @@ client.on("ready", () => {
    console.log("Estoy listo!");
 });
 
-var prefix = config.prefix;
+
 var msg;
 var i;
 var time;
@@ -15,9 +15,9 @@ client.on("message", (message) => {
   //if (!message.content.startsWith(prefix)) return;
   //if (message.author.bot) return;
 
-/*  if (message.content.startsWith( prefix + "ping")) {
+  if (message.content.startsWith( + "ping")) {
     message.channel.send("pong!"+message.content);
-  } */
+  }
 
   if (message.content.startsWith("Greetings")) {
     msg=message.content;
